@@ -162,7 +162,7 @@
 						"referenceName": "ds_population_raw_gz",
 						"type": "DatasetReference"
 					},
-					"timeout": "0.00:05:00",
+					"timeout": "0.00:00:30",
 					"sleep": 10
 				}
 			}
