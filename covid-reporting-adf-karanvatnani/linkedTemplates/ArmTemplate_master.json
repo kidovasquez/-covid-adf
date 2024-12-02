@@ -19,7 +19,7 @@
 			"type": "string",
 			"defaultValue": "https://covidreportingdlkv.dfs.core.windows.net/"
 		},
-		"pl_ingest_population_data_properties_typeProperties_scope": {
+		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/90e9a861-552b-475d-bf13-254d5b10ecae/resourceGroups/covid_reporting/providers/Microsoft.Storage/storageAccounts/covidreportingkv"
 		},
@@ -59,8 +59,8 @@
 					"ls_adfs_covidreportingdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adfs_covidreportingdl_properties_typeProperties_url')]"
 					},
-					"pl_ingest_population_data_properties_typeProperties_scope": {
-						"value": "[parameters('pl_ingest_population_data_properties_typeProperties_scope')]"
+					"tr_ingest_population_data_properties_typeProperties_scope": {
+						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
 					}
 				}
 			},

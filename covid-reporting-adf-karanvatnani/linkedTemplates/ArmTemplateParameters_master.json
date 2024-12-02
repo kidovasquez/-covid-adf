@@ -14,7 +14,7 @@
 		"ls_adfs_covidreportingdl_properties_typeProperties_url": {
 			"value": "https://covidreportingdlkv.dfs.core.windows.net/"
 		},
-		"pl_ingest_population_data_properties_typeProperties_scope": {
+		"tr_ingest_population_data_properties_typeProperties_scope": {
 			"value": "/subscriptions/90e9a861-552b-475d-bf13-254d5b10ecae/resourceGroups/covid_reporting/providers/Microsoft.Storage/storageAccounts/covidreportingkv"
 		},
 		"containerUri": {
