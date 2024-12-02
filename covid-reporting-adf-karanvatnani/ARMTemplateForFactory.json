@@ -66,6 +66,7 @@
 							],
 							"storeSettings": {
 								"type": "AzureBlobStorageReadSettings",
+								"recursive": true,
 								"enablePartitionDiscovery": false
 							},
 							"formatSettings": {
@@ -322,7 +323,7 @@
 				],
 				"type": "BlobEventsTrigger",
 				"typeProperties": {
-					"blobPathBeginsWith": "/population/blobs/population_by_age.tsz.gz",
+					"blobPathBeginsWith": "/population/blobs/population_by_age",
 					"ignoreEmptyBlobs": true,
 					"scope": "[parameters('pl_ingest_population_data_properties_typeProperties_scope')]",
 					"events": [
