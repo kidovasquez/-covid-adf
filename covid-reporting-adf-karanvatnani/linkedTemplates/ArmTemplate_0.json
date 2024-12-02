@@ -141,7 +141,7 @@
 						"userProperties": [],
 						"typeProperties": {
 							"dataset": {
-								"referenceName": "ds_population_raw_tsv",
+								"referenceName": "ds_population_raw_gz",
 								"type": "DatasetReference",
 								"parameters": {}
 							},
@@ -151,8 +151,7 @@
 								"exists"
 							],
 							"storeSettings": {
-								"type": "AzureBlobFSReadSettings",
-								"recursive": true,
+								"type": "AzureBlobStorageReadSettings",
 								"enablePartitionDiscovery": false
 							},
 							"formatSettings": {
@@ -297,8 +296,8 @@
 				"annotations": []
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/ds_population_raw_tsv')]",
-				"[concat(variables('factoryId'), '/datasets/ds_population_raw_gz')]"
+				"[concat(variables('factoryId'), '/datasets/ds_population_raw_gz')]",
+				"[concat(variables('factoryId'), '/datasets/ds_population_raw_tsv')]"
 			]
 		}
 	]
