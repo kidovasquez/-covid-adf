@@ -7,13 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "covid-reporting-adf-karanvatnani"
 		},
-		"ls_adfs_covidreportingdl_accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'ls_adfs_covidreportingdl'"
-		},
 		"ls_ablob_covidreporintsa_connectionString": {
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_ablob_covidreporintsa'"
+		},
+		"ls_adfs_covidreportingdl_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ls_adfs_covidreportingdl'"
 		},
 		"ls_adfs_covidreportingdl_properties_typeProperties_url": {
 			"type": "string",
@@ -46,11 +46,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"ls_adfs_covidreportingdl_accountKey": {
-						"value": "[parameters('ls_adfs_covidreportingdl_accountKey')]"
-					},
 					"ls_ablob_covidreporintsa_connectionString": {
 						"value": "[parameters('ls_ablob_covidreporintsa_connectionString')]"
+					},
+					"ls_adfs_covidreportingdl_accountKey": {
+						"value": "[parameters('ls_adfs_covidreportingdl_accountKey')]"
 					},
 					"ls_adfs_covidreportingdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adfs_covidreportingdl_properties_typeProperties_url')]"

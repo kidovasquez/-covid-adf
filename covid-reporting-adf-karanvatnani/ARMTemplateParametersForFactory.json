@@ -5,10 +5,10 @@
 		"factoryName": {
 			"value": "covid-reporting-adf-karanvatnani"
 		},
-		"ls_adfs_covidreportingdl_accountKey": {
+		"ls_ablob_covidreporintsa_connectionString": {
 			"value": ""
 		},
-		"ls_ablob_covidreporintsa_connectionString": {
+		"ls_adfs_covidreportingdl_accountKey": {
 			"value": ""
 		},
 		"ls_adfs_covidreportingdl_properties_typeProperties_url": {
