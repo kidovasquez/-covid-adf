@@ -2,7 +2,7 @@
 	"name": "tr_ingest_hospital_admissions_data",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
@@ -18,7 +18,7 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Minute",
+				"frequency": "Month",
 				"interval": 1,
 				"startTime": "2024-12-03T13:45:00",
 				"timeZone": "India Standard Time"
