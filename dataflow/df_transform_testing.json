@@ -27,7 +27,11 @@
 				}
 			],
 			"sinks": [],
-			"transformations": [],
+			"transformations": [
+				{
+					"name": "aggregateDimDate"
+				}
+			],
 			"scriptLines": [
 				"source(output(",
 				"          country as string,",
@@ -69,7 +73,10 @@
 				"     ),",
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     ignoreNoFilesFound: false) ~> countryLookUp"
+				"     ignoreNoFilesFound: false) ~> countryLookUp",
+				"dimDateSource aggregate(groupBy(ecdc_year_date = year+'-W'+lpad(week_of_year,2,'0')),",
+				"     week_start_date = min(date),",
+				"          week_end_date = max(date)) ~> aggregateDimDate"
 			]
 		}
 	}
