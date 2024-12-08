@@ -16,7 +16,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataflow": {
-						"referenceName": "ds_transform_hospital_admissions",
+						"referenceName": "df_transform_hospital_admissions",
 						"type": "DataFlowReference"
 					},
 					"compute": {
