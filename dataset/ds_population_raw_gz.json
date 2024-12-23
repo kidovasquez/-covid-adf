@@ -6,6 +6,9 @@
 			"referenceName": "ls_ablob_covidreporintsa",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "raw"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
